@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bismillah Prime Town</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background: #f0f2f5;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    nav a {
+      color: white;
+      margin-left: 25px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .hero h2 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+    }
+    .section {
+      padding: 60px 40px;
+      background: white;
+      margin: 20px auto;
+      border-radius: 12px;
+      max-width: 1000px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #007b5e;
+    }
+    .team-member {
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
+    .contact-form input, .contact-form textarea, .contact-form button {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    .contact-form button {
+      background: #007b5e;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .contact-form button:hover {
+      background: #005f49;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      margin-top: 20px;
+    }
+    footer {
+      background: #2c5364;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bismillah Prime Town</h1>
+    <nav>
+      <a href="#register">Register</a>
+      <a href="#login">Login</a>
+      <a href="#complaints">Complaint</a>
+      <a href="#schedule">Meeting</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to Bismillah Prime Town</h2>
+    <p>Your Ideal Place for Peaceful & Secure Living</p>
+  </section>
+
+  <section class="section">
+    <h2>About Our Society</h2>
+    <p>Bismillah Prime Town is a secure, well-maintained residential community with a strong management team, focused on quality living and neighborhood harmony.</p>
+  </section>
+
+  <section class="section">
+    <h2>Society Committee</h2>
+    <div class="team-member">President: Mr.Nasurallah mazari</div>
+    <div class="team-member">General Secretary: Mr. Sarfraz</div>
+    <div class="team-member">Finance Officer: Ms. Shoaib</div>
+    <div class="team-member">Security In-charge: </div>
+  </section>
+
+  <section class="section" id="schedule">
+    <h2>Meeting Schedule</h2>
+    <p>Next community meeting: 5th July 2025, 6:00 PM at the Society Hall.</p>
+  </section>
+
+  <section class="section" id="complaints">
+    <h2>Submit a Complaint</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Full Name" required />
+      <input type="email" placeholder="Your Email Address" required />
+      <textarea placeholder="Describe your issue" rows="5" required></textarea>
+      <button type="submit">Submit Complaint</button>
+    </form>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact Information</h2>
+    <p><strong>Email:</strong> contact@bismillahprimetown.com</p>
+    <p><strong>Phone:</strong> 0300-1234567</p>
+    <p><strong>Address:</strong> Near Hala Naka, Hyderabad</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!..."></iframe>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Bismillah Prime Town. All rights reserved.</p>
+  </footer>
+</body>
+</html>
